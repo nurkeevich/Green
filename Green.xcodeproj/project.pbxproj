@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,18 @@
 		8D48926824802C2D00708BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D48926724802C2D00708BF2 /* Assets.xcassets */; };
 		8D48926B24802C2D00708BF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D48926A24802C2D00708BF2 /* Preview Assets.xcassets */; };
 		8D48926E24802C2D00708BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D48926C24802C2D00708BF2 /* LaunchScreen.storyboard */; };
+		8D48927724802C4800708BF2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D48927624802C4800708BF2 /* LoginView.swift */; };
+		8D48927E24806B5100708BF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D48927D24806B5100708BF2 /* GoogleService-Info.plist */; };
+		8D48928124806CF400708BF2 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D48928024806CF400708BF2 /* SessionStore.swift */; };
+		8DD8DCE42480878500B216A7 /* KeyboarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8DCE32480878500B216A7 /* KeyboarExtension.swift */; };
+		8DD8DCE724808A8500B216A7 /* SignInWithGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8DCE624808A8500B216A7 /* SignInWithGoogle.swift */; };
+		8DF8D5942480700200BDCFF7 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8D5932480700200BDCFF7 /* TabView.swift */; };
+		90FFB2FCC57701A4A70AC011 /* Pods_Green.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6D28F206049A11C6226B3 /* Pods_Green.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54B4B631DBA70B7B82B21DA5 /* Pods-Green.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green.release.xcconfig"; path = "Target Support Files/Pods-Green/Pods-Green.release.xcconfig"; sourceTree = "<group>"; };
+		69530609854CB1ACCA870381 /* Pods-Green.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green.debug.xcconfig"; path = "Target Support Files/Pods-Green/Pods-Green.debug.xcconfig"; sourceTree = "<group>"; };
 		8D48925E24802C2B00708BF2 /* Green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Green.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D48926124802C2B00708BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D48926324802C2B00708BF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		8D48926A24802C2D00708BF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D48926D24802C2D00708BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D48926F24802C2D00708BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D48927624802C4800708BF2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8D48927D24806B5100708BF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D48928024806CF400708BF2 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		8DD8DCE32480878500B216A7 /* KeyboarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboarExtension.swift; sourceTree = "<group>"; };
+		8DD8DCE624808A8500B216A7 /* SignInWithGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogle.swift; sourceTree = "<group>"; };
+		8DF8D5932480700200BDCFF7 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		C1C6D28F206049A11C6226B3 /* Pods_Green.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FFB2FCC57701A4A70AC011 /* Pods_Green.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6802B141F826B32771EB99E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69530609854CB1ACCA870381 /* Pods-Green.debug.xcconfig */,
+				54B4B631DBA70B7B82B21DA5 /* Pods-Green.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8D48925524802C2B00708BF2 = {
 			isa = PBXGroup;
 			children = (
 				8D48926024802C2B00708BF2 /* Green */,
 				8D48925F24802C2B00708BF2 /* Products */,
+				6802B141F826B32771EB99E9 /* Pods */,
+				B6F205211BBB67EC4C625321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +84,18 @@
 		8D48926024802C2B00708BF2 /* Green */ = {
 			isa = PBXGroup;
 			children = (
+				8DD8DCE524808A7100B216A7 /* SocialSignIn */,
+				8D48927F24806CE000708BF2 /* Network */,
+				8D48927524802C3600708BF2 /* View */,
 				8D48926124802C2B00708BF2 /* AppDelegate.swift */,
 				8D48926324802C2B00708BF2 /* SceneDelegate.swift */,
 				8D48926524802C2B00708BF2 /* ContentView.swift */,
 				8D48926724802C2D00708BF2 /* Assets.xcassets */,
 				8D48926C24802C2D00708BF2 /* LaunchScreen.storyboard */,
+				8D48927D24806B5100708BF2 /* GoogleService-Info.plist */,
 				8D48926F24802C2D00708BF2 /* Info.plist */,
 				8D48926924802C2D00708BF2 /* Preview Content */,
+				8DD8DCE32480878500B216A7 /* KeyboarExtension.swift */,
 			);
 			path = Green;
 			sourceTree = "<group>";
@@ -75,6 +108,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8D48927524802C3600708BF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D48927624802C4800708BF2 /* LoginView.swift */,
+				8DF8D5932480700200BDCFF7 /* TabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D48927F24806CE000708BF2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8D48928024806CF400708BF2 /* SessionStore.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8DD8DCE524808A7100B216A7 /* SocialSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				8DD8DCE624808A8500B216A7 /* SignInWithGoogle.swift */,
+			);
+			path = SocialSignIn;
+			sourceTree = "<group>";
+		};
+		B6F205211BBB67EC4C625321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C6D28F206049A11C6226B3 /* Pods_Green.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D48927224802C2D00708BF2 /* Build configuration list for PBXNativeTarget "Green" */;
 			buildPhases = (
+				DEBB3FA56ACA3326C573230C /* [CP] Check Pods Manifest.lock */,
 				8D48925A24802C2B00708BF2 /* Sources */,
 				8D48925B24802C2B00708BF2 /* Frameworks */,
 				8D48925C24802C2B00708BF2 /* Resources */,
+				F7F749002FA5895EC909FFD8 /* [CP] Embed Pods Frameworks */,
+				9A15EA3B21C8A36058C980C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D48926E24802C2D00708BF2 /* LaunchScreen.storyboard in Resources */,
+				8D48927E24806B5100708BF2 /* GoogleService-Info.plist in Resources */,
 				8D48926B24802C2D00708BF2 /* Preview Assets.xcassets in Resources */,
 				8D48926824802C2D00708BF2 /* Assets.xcassets in Resources */,
 			);
@@ -141,13 +211,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A15EA3B21C8A36058C980C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Green/Pods-Green-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Green/Pods-Green-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Green/Pods-Green-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBB3FA56ACA3326C573230C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Green-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F749002FA5895EC909FFD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Green/Pods-Green-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Green/Pods-Green-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Green/Pods-Green-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D48925A24802C2B00708BF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D48926224802C2B00708BF2 /* AppDelegate.swift in Sources */,
+				8D48928124806CF400708BF2 /* SessionStore.swift in Sources */,
+				8DD8DCE724808A8500B216A7 /* SignInWithGoogle.swift in Sources */,
 				8D48926424802C2B00708BF2 /* SceneDelegate.swift in Sources */,
+				8D48927724802C4800708BF2 /* LoginView.swift in Sources */,
+				8DF8D5942480700200BDCFF7 /* TabView.swift in Sources */,
+				8DD8DCE42480878500B216A7 /* KeyboarExtension.swift in Sources */,
 				8D48926624802C2B00708BF2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +416,7 @@
 		};
 		8D48927324802C2D00708BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69530609854CB1ACCA870381 /* Pods-Green.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +424,7 @@
 				DEVELOPMENT_TEAM = 349FS87879;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Green/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +438,7 @@
 		};
 		8D48927424802C2D00708BF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B4B631DBA70B7B82B21DA5 /* Pods-Green.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +446,7 @@
 				DEVELOPMENT_TEAM = 349FS87879;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Green/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
