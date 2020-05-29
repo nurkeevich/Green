@@ -56,29 +56,38 @@ struct SignInAndSignUpView: View {
 }
 
 struct SignInWithSocialAccounts: View {
+    private let socialLogin = SocialLogin()
+    
     var body: some View {
         VStack(spacing: 30) {
             Divider()
             Text("Or sign in with")
                 .foregroundColor(Color.secondary)
             VStack(spacing:20) {
-                Button(action: signInWithApple) {
-                    RoundedRectangle(cornerRadius: 8)
-                        .fill(Color(#colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1)))
-                        .frame(height: 50)
+                Button(action: self.loginWithApple) {
+                    Text("Login with Apple")
                 }
                 
-                GoogleButton()
-                    .frame(height: 50)
+                Button(action: self.socialLogin.attemptLoginGoogle) {
+                    HStack {
+                        Image("glogo")
+                            .resizable()
+                            .scaledToFit()
+                            .padding(.all, 8)
+                        Text("Login with Google")
+                    }
+                    .foregroundColor(Color.white)
                     .frame(minWidth: 0, maxWidth: .infinity)
+                    .frame(height: 50)
+                    .background(Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)))
                     .cornerRadius(8)
+                }
             }
         }
     }
     
-    
-    private func signInWithApple() {
-        print("Sign in with apple pressed")
+    func loginWithApple() {
+        print("some")
     }
 }
 

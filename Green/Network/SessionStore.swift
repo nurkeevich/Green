@@ -32,6 +32,10 @@ class SessionStore: ObservableObject {
         Auth.auth().signIn(withEmail: email, password: password, completion: handler)
     }
     
+    func signInWithAuthCredentials(credentials: AuthCredential, handler: @escaping AuthDataResultCallback) {
+        Auth.auth().signIn(with: credentials, completion: handler)
+    }
+    
     func signOut() {
         do {
             try Auth.auth().signOut()

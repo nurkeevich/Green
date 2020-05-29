@@ -17,7 +17,7 @@
 		8D48927E24806B5100708BF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D48927D24806B5100708BF2 /* GoogleService-Info.plist */; };
 		8D48928124806CF400708BF2 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D48928024806CF400708BF2 /* SessionStore.swift */; };
 		8DD8DCE42480878500B216A7 /* KeyboarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8DCE32480878500B216A7 /* KeyboarExtension.swift */; };
-		8DD8DCE724808A8500B216A7 /* SignInWithGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8DCE624808A8500B216A7 /* SignInWithGoogle.swift */; };
+		8DD8DCEB24809F1F00B216A7 /* SocialLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8DCEA24809F1F00B216A7 /* SocialLogin.swift */; };
 		8DF8D5942480700200BDCFF7 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8D5932480700200BDCFF7 /* TabView.swift */; };
 		90FFB2FCC57701A4A70AC011 /* Pods_Green.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C6D28F206049A11C6226B3 /* Pods_Green.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 		8D48927D24806B5100708BF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D48928024806CF400708BF2 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		8DD8DCE32480878500B216A7 /* KeyboarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboarExtension.swift; sourceTree = "<group>"; };
-		8DD8DCE624808A8500B216A7 /* SignInWithGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogle.swift; sourceTree = "<group>"; };
+		8DD8DCEA24809F1F00B216A7 /* SocialLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLogin.swift; sourceTree = "<group>"; };
 		8DF8D5932480700200BDCFF7 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		C1C6D28F206049A11C6226B3 /* Pods_Green.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,7 +128,7 @@
 		8DD8DCE524808A7100B216A7 /* SocialSignIn */ = {
 			isa = PBXGroup;
 			children = (
-				8DD8DCE624808A8500B216A7 /* SignInWithGoogle.swift */,
+				8DD8DCEA24809F1F00B216A7 /* SocialLogin.swift */,
 			);
 			path = SocialSignIn;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			files = (
 				8D48926224802C2B00708BF2 /* AppDelegate.swift in Sources */,
 				8D48928124806CF400708BF2 /* SessionStore.swift in Sources */,
-				8DD8DCE724808A8500B216A7 /* SignInWithGoogle.swift in Sources */,
+				8DD8DCEB24809F1F00B216A7 /* SocialLogin.swift in Sources */,
 				8D48926424802C2B00708BF2 /* SceneDelegate.swift in Sources */,
 				8D48927724802C4800708BF2 /* LoginView.swift in Sources */,
 				8DF8D5942480700200BDCFF7 /* TabView.swift in Sources */,
