@@ -9,4 +9,5 @@ target 'Green' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
+  pod 'lottie-ios'
 end

@@ -10,7 +10,6 @@ import SwiftUI
 import GoogleSignIn
 
 struct SocialLogin: UIViewRepresentable {
-
     func makeUIView(context: UIViewRepresentableContext<SocialLogin>) -> UIView {
         return UIView()
     }

@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         Group {
             if session.user != nil {
-                TabView()
+                MainTabView()
             } else {
                 LoginView()
             }
@@ -22,7 +22,7 @@ struct ContentView: View {
     }
     
     func getUser() {
-        session.listen()
+        self.session.listen()
     }
 }
 

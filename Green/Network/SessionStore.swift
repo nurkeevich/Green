@@ -11,6 +11,7 @@ import FirebaseAuth
 
 class SessionStore: ObservableObject {
     @Published var user: User?
+    @Published var loading: Bool = false
     
     var handle: AuthStateDidChangeListenerHandle?
     
@@ -30,10 +31,6 @@ class SessionStore: ObservableObject {
     
     func signIn(email: String, password: String, handler: @escaping AuthDataResultCallback) {
         Auth.auth().signIn(withEmail: email, password: password, completion: handler)
-    }
-    
-    func signInWithAuthCredentials(credentials: AuthCredential, handler: @escaping AuthDataResultCallback) {
-        Auth.auth().signIn(with: credentials, completion: handler)
     }
     
     func signOut() {
